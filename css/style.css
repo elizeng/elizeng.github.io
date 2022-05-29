@@ -9392,7 +9392,7 @@ textarea.form-control {
   .contact-section .box .icon {
     width: 100px;
     height: 100px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(204, 204, 204, 0.3);
     margin: 0 auto;
     margin-bottom: 2em;
     -webkit-border-radius: 50%;
