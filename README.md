@@ -1,1 +1,1 @@
-Elize's personal Webpage
+<strong>Elize's personal Webpage</strong>
