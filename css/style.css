@@ -9194,7 +9194,7 @@ textarea.form-control {
     top: 0px;
     left: 0;
     font-size: 7vw;
-    color: #343a40;
+    color: rgba(0, 0, 0, 0.1);
     z-index: -1;
     font-weight: 900; }
     .heading-section h1.big.big-2 {
@@ -9208,11 +9208,11 @@ textarea.form-control {
       .heading-section h2 {
         font-size: 38px; } }
   .heading-section.heading-section-white .subheading {
-    color: rgba(0, 0, 0, 0) !important; }
+    color: rgba(0, 0, 0, 0.9) !important; }
   .heading-section.heading-section-white h2 {
-    color: #343a40; }
+    color: #dedede; }
   .heading-section.heading-section-white p {
-    color: rgba(0, 0, 0, 0); }
+    color: rgba(0, 0, 0, 0.9); }
 
 .img,
 .blog-img,
