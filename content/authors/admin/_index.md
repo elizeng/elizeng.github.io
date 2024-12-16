@@ -35,7 +35,7 @@ profiles:
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/ElizeYXNg
-  - icon: icons/bluesky
+  - icon: brands/bluesky
     url: https://bsky.app/profile/elizeyxng.bsky.social
   - icon: brands/github
     url: https://github.com/elizeng
