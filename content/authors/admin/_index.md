@@ -34,22 +34,23 @@ profiles:
     url: 'mailto:your-email@example.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/ElizeYXNg
+  - icon: custom/bluesky
+    url: https://bsky.app/profile/elizeyxng.bsky.social
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/elizeng
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/elizengyx/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=6G1Row0AAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0003-1014-182X
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Avian Biology
+  - Conservation
+  - Evolution
+  - Genomics
 
 education:
   - area: PhD Artificial Intelligence
