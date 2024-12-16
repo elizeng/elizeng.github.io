@@ -26,7 +26,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: dark_blue_mountains.svg
           filters:
-            brightness: 0.7
+            brightness: 0.6
           size: cover
           position: center
           parallax: false
@@ -34,7 +34,7 @@ sections:
     content:
       title: '📚 My Research'
       subtitle: ''
-      text: |-
+      text: Test test test|-
         
     design:
       columns: '1'
@@ -59,22 +59,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
+  
       # Page type to display. E.g. post, talk, publication...
       page_type: post
       # Choose how many pages you would like to display (0 = all pages)
