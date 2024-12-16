@@ -24,18 +24,18 @@ role: Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Queensland
+    url: https://cbcs.centre.uq.edu.au/profile/3322/elize-ng
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:elizengyx@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/ElizeYXNg
-  - icon: custom/bluesky
+  - icon: icons/bluesky
     url: https://bsky.app/profile/elizeyxng.bsky.social
   - icon: brands/github
     url: https://github.com/elizeng
