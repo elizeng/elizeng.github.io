@@ -34,8 +34,8 @@ sections:
     content:
       title: '📚 My Research'
       subtitle: ''
-      text: Test test test|-
-        
+      text: |-
+        My research explores how climate, geography, and human activity shape the genomic diversity and conservation status of birds, with a particular focus on seabirds and migratory shorebirds. I combine population genomics, spatial analysis, and field surveys to inform evidence-based conservation management, and I currently lead a systematic review of conservation actions for migratory shorebirds across the East Asian-Australasian Flyway.
     design:
       columns: '1'
   - block: collection
