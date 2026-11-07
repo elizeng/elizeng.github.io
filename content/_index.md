@@ -14,17 +14,16 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
     design:
       css_class: dark
+      # Less space above the bio (top, right, bottom, left); default is 6rem top and bottom
+      spacing:
+        padding: ['3rem', '0', '6rem', '0']
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: dark_blue_mountains.svg
+          filename: home-banner-sandpipers.jpg
           filters:
             brightness: 0.6
           size: cover

@@ -12,7 +12,6 @@ Built with [Hugo](https://gohugo.io) and the [Hugo Blox](https://hugoblox.com) A
 - Talks: `content/event/<slug>/index.md`
 - Research projects: `content/project/<slug>/index.md`
 - About page (service, teaching, section order): `content/about.md`
-- CV PDF: `static/uploads/resume.pdf`
 - Menu, theme and footer: `config/_default/`
 
 ## Preview locally

@@ -2,6 +2,8 @@
 title: Genomic Assessment of Migratory Shorebirds Wintering in Singapore
 date: 2016-10-01
 external_link: ''
+image:
+  credit: '© Raghavendra Pai'
 summary: A 3-year, SGD 33,700 project funded by the Singapore National Parks Board on the genomic assessment of migratory shorebird species wintering in Singapore.
 tags:
   - Conservation Genomics

@@ -1,6 +1,8 @@
 ---
 title: Conservation Actions for Migratory Shorebirds in the EAAF
 date: 2024-11-01
+image:
+  credit: '© JJ Harrison'
 summary: Systematic literature review and management handbook on conservation actions for migratory shorebirds across the East Asian-Australasian Flyway.
 tags:
   - Conservation

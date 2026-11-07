@@ -30,7 +30,6 @@ Built with **Hugo + Hugo Blox (Academic CV template, `blox-tailwind`)**, deploye
 | `content/publications.md` | Full publication list, grouped by year via the custom `publications-by-year` block (`layouts/partials/blox/publications-by-year.html`) |
 | `layouts/partials/blox/markdown.html` | Override: wider text sections (default 60rem; per-block `design: max_width:`) |
 | `assets/media/` | Images processed by Hugo (backgrounds, icons in `assets/media/icons/`) |
-| `static/uploads/resume.pdf` | CV linked from the "Download CV" button |
 | `.github/workflows/publish.yaml` | Builds and deploys on push to `main` |
 | `.github/workflows/import-publications.yml` | Converts a root `publications.bib` into publication pages via PR |
 
@@ -45,6 +44,7 @@ Built with **Hugo + Hugo Blox (Academic CV template, `blox-tailwind`)**, deploye
 - `publication:` — journal in Markdown italics, e.g. `"*Ecography*"`. For unpublished work append the status: `(in submission)`, `(in review)`, `(in press)`.
 - `publication_types:` — `["article-journal"]` for published papers, `["manuscript"]` for in-prep/submitted, `["paper-conference"]`, `["chapter"]`, `["book"]`, `["report"]` as appropriate.
 - Fill `doi:` (bare DOI, no `https://doi.org/`) and `url_pdf`/`url_code`/`url_dataset` when known; leave others `''`.
+- Papers do not get their own pages (`_build: render: never` cascade in `content/publication/_index.md`). On `/publications/` the title links to `external_link`, else `https://doi.org/<doi>`, else plain text; no DOI/PDF buttons are shown.
 - In-preparation and in-submission manuscripts are kept but hidden with `draft: true`. In-press papers are shown: put only the journal in `publication:` and set `status: "In press"` (rendered in italics after the authors).
 - When a manuscript gets published, remove `draft: true` and update the existing page (journal, date, DOI, type) — don't create a duplicate.
 - Bulk alternative: put a `publications.bib` at repo root and push; the import workflow opens a PR.
@@ -77,10 +77,10 @@ Hugo is **not installed system-wide** on this machine. Options:
 Before handing work back, at minimum:
 - Validate YAML front matter (matching `---` fences, consistent indentation, quoted strings containing `:` or `*`).
 - Check every new page has a unique folder slug and a valid date.
-- Confirm referenced files exist (images, `uploads/resume.pdf`, icons).
+- Confirm referenced files exist (images, icons).
 - Summarise what changed and list anything left blank or needing the user's input.
 
 ## Environment notes
 - The project lives in a OneDrive-synced folder on Windows; build into a folder outside OneDrive (e.g. `hugo -d <temp dir>`) rather than creating `public/`/`resources/` here. Both are in `.gitignore`.
 - This folder is not yet a git repository. To publish, `git init` it and connect it to `github.com/elizeng/elizeng.github.io`, or copy its contents into a clone of that repo.
-- `static/uploads/resume.pdf` is exported from the CV `.docx`; re-export it whenever the CV changes.
+- The CV is intentionally not published on the site (no PDF, no Download CV button). Don't add it back unless asked.

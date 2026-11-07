@@ -16,8 +16,13 @@ sections:
     design:
       # Hugo date format
       date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
+      # Education is kept in the profile but not shown here (site override)
+      show_education: false
+  - block: resume-awards
+    id: awards
+    content:
+      title: Grants & Awards
+      username: admin
   - block: markdown
     id: service
     content:
@@ -95,10 +100,5 @@ sections:
     id: skills
     content:
       title: Skills
-      username: admin
-  - block: resume-awards
-    id: awards
-    content:
-      title: Grants & Awards
       username: admin
 ---
