@@ -47,6 +47,8 @@ sections:
         My long-term goal is to build a multidisciplinary team, and eventually a centre of excellence in applied conservation science. It would advance research where it’s most needed, train the next generation of conservation scientists and help conservation keep pace with development.
     design:
       columns: '1'
+      # Slightly smaller than the theme's large text (1.25rem)
+      text_size: '1.125rem'
   - block: collection
     id: papers
     content:

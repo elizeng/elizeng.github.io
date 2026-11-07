@@ -37,7 +37,7 @@ Built with **Hugo + Hugo Blox (Academic CV template, `blox-tailwind`)**, deploye
 
 ### Publications (`content/publication/<slug>/index.md`)
 - Folder slug: lowercase, hyphenated title, truncated to ~60 characters (matches existing folders).
-- `authors:` — copy exactly as written in the CV, abbreviated "Surname Initials" style (e.g. `Rheindt FE`), in published order, keeping `†` on co-supervised students. Elize is always `Ng EYX` (not `admin`); the `content/authors/ng-eyx/` profile makes only her name bold.
+- `authors:` — copy exactly as written in the CV, abbreviated "Surname Initials" style (e.g. `Rheindt FE`), in published order, keeping `†` on co-supervised students. Elize is always `Ng EYX` (not `admin`). Because papers have no pages, the Publications page reads `authors:` directly (not the author taxonomy) and bolds only `Ng EYX`; after any change to publication build settings, check that author lists still render.
 - `featured: true` papers appear as cards on the homepage; set `summary:` to the plain-text journal line (e.g. `"Ecography e08322"`) and add a `featured.jpg`/`featured.png` (16:9 works best) in the paper's folder. Cards show no date (override in `layouts/partials/views/article-grid.html`).
 - The full list lives on `/publications/` (`content/publications.md`), not the homepage.
 - `date:` — **year only**. Always write `"YYYY-01-01T00:00:00Z"` (Hugo needs a full date, but only the year is meaningful). Never use the real month/day, even if known.
@@ -50,6 +50,7 @@ Built with **Hugo + Hugo Blox (Academic CV template, `blox-tailwind`)**, deploye
 - Bulk alternative: put a `publications.bib` at repo root and push; the import workflow opens a PR.
 
 ### Talks (`content/event/<slug>/index.md`)
+- Talks have no pages of their own (`_build: render: never` cascade in `content/event/_index.md`); they appear only in the About page's Talks section (title, event name, summary, no links).
 - Required: `title`, `event`, `date` (and `date_end` for multi-day), `authors: [admin]`, one-line `summary`.
 - Fill `location` and `event_url` when known.
 

@@ -1,0 +1,25 @@
+{{/* About page only: one content width (60rem, same as Service & Memberships) and consistent text sizes. */}}
+{{ if eq .RelPermalink "/about/" }}
+<style>
+  /* Width: widen the theme's narrow (~65ch) and Talks (48rem) columns to 60rem */
+  .max-w-prose,
+  #talks .max-w-3xl { max-width: 60rem !important; }
+  #talks .w-fit { width: 100%; max-width: 60rem; margin-left: auto; margin-right: auto; }
+  /* Let text fill its column (theme caps .prose at ~65ch) and stretch the Experience timeline */
+  .prose { max-width: none !important; }
+  #experience .max-w-prose > div { width: 100%; }
+
+  /* Body text: 1rem everywhere */
+  .prose,
+  .prose p,
+  .prose li,
+  #talks article p { font-size: 1rem !important; line-height: 1.75; }
+
+  /* Box titles (Awards, Teaching, Skills) and talk titles: one moderate size */
+  h5.text-2xl,
+  #talks article h2 { font-size: 1.25rem !important; line-height: 1.4; }
+
+  /* Small meta text (dates, awarders) */
+  #talks time { font-size: 0.875rem !important; }
+</style>
+{{ end }}

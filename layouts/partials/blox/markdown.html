@@ -8,8 +8,10 @@
 {{ $title := $block.content.title | emojify | $page.RenderString }}
 {{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
 {{ $max_width := $block.design.max_width | default "60rem" }}
-{{/* `design: text_size: normal` uses regular-size text instead of the theme's large `lg:prose-xl`. */}}
-{{ $prose_size := cond (eq $block.design.text_size "normal") "" "lg:prose-xl" }}
+{{/* `design: text_size:` unset = theme's large `lg:prose-xl`; `normal` = 1rem; any CSS size (e.g. '1.125rem') = that size. */}}
+{{ $text_size := $block.design.text_size | default "" }}
+{{ $prose_size := cond (eq $text_size "") "lg:prose-xl" "" }}
+{{ $font_style := cond (and (ne $text_size "") (ne $text_size "normal")) (printf "font-size: %s;" $text_size) "" }}
 
 <div class="flex flex-col items-center mx-auto gap-3 justify-center px-6" style="max-width: {{ $max_width | safeCSS }}; width: 100%;">
 
@@ -18,5 +20,5 @@
   </div>
 
   {{/* We use DIV rather than P to support `prose` class and multiple paragraphs */}}
-  {{ with $text }}<div class="prose prose-slate {{ $prose_size }} dark:prose-invert" style="max-width: 100%; width: 100%;">{{ . }}</div>{{ end }}
+  {{ with $text }}<div class="prose prose-slate {{ $prose_size }} dark:prose-invert" style="max-width: 100%; width: 100%; {{ $font_style | safeCSS }}">{{ . }}</div>{{ end }}
 </div>
