@@ -21,6 +21,7 @@ summary: "Biological Conservation 214: 101-108"
 
 tags: []
 featured: True
+external_link: 'https://www.sciencedirect.com/science/article/abs/pii/S000632071730719X'
 
 url_pdf: ''
 url_code: ''

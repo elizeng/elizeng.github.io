@@ -6,7 +6,7 @@ authors:
 - Emmerson LM
 - Burridge CP
 date: "2025-01-01T00:00:00Z"
-doi: ""
+doi: "10.1111/jbi.70088"
 
 publication_types: ["article-journal"]
 
@@ -14,10 +14,11 @@ publication: "*Journal of Biogeography* 52: e70088"
 publication_short: ""
 
 abstract: ""
-summary: ""
+summary: "Journal of Biogeography 52: e70088"
 
 tags: []
 featured: True
+external_link: 'https://onlinelibrary.wiley.com/doi/10.1111/jbi.70088'
 
 url_pdf: ''
 url_code: ''

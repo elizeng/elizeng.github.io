@@ -1,0 +1,34 @@
+{{/* Site block: publication list grouped by year (year in a left column). */}}
+{{/* Usage in a landing page:  - block: publications-by-year  with content.title / content.text */}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $query := where site.RegularPages "Section" "publication" }}
+
+{{ with $block.content.title }}
+<div class="flex flex-col items-center mx-auto gap-3 justify-center px-6" style="max-width: 60rem; width: 100%;">
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ . | emojify | $page.RenderString }}</div>
+  {{ with $block.content.text }}<p class="text-gray-600 dark:text-gray-400">{{ . | emojify | $page.RenderString }}</p>{{ end }}
+</div>
+{{ end }}
+
+<div class="mx-auto px-6" style="max-width: 60rem; width: 100%;">
+  {{ range $query.GroupByDate "2006" }}
+  <div class="border-t border-gray-200 dark:border-gray-700" style="display: grid; grid-template-columns: 5rem 1fr; gap: 1.5rem; padding: 1.25rem 0;">
+    <div class="text-xl font-bold text-primary-700 dark:text-primary-300">{{ .Key }}</div>
+    <div style="display: flex; flex-direction: column; gap: 1rem;">
+      {{ range .Pages }}
+      <div class="pub-list-item view-citation">
+        <span class="article-metadata li-cite-author">{{ partial "page_metadata_authors" . }}</span>.
+        {{ with .Params.status }}<em>{{ . }}</em>.{{ end }}
+        <a href="{{ .RelPermalink }}" class="underline">{{ .Title }}</a>.
+        {{ with .Params.publication }}{{ . | markdownify }}.{{ end }}
+        {{ if partial "functions/has_attachments" . }}
+        <div class="flex flex-wrap space-x-3">{{ partial "page_links" (dict "page" . "is_list" 1) }}</div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>

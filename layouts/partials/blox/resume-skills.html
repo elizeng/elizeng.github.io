@@ -1,0 +1,45 @@
+{{/* Hugo Blox: Skills — site override of blox-tailwind v0.3.1 */}}
+{{/* Change: each skill category is a box styled like the Awards block. */}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $author := $block.content.username | default "admin" }}
+
+{{ $person_page_path := (printf "/authors/%s" $author) }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+{{ errorf "Could not find an author page at `%s` for the Skills block." $person_page_path }}
+{{ end }}
+{{ $skills := $person_page.Params.skills }}
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    {{ $block.content.title | markdownify | emojify }}
+  </div>
+
+  {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+
+  <div class="w-full flex flex-col gap-6">
+    {{ range $skills }}
+    <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <h5 class="mb-4 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{ .name | markdownify | emojify }}</h5>
+      <div class="flex flex-col gap-3">
+        {{ range .items }}
+        <div class="flex gap-3">
+          {{ with .icon }}
+          <span class="text-gray-500 dark:text-gray-400" style="flex: none; width: 1.25rem; height: 1.25rem; margin-top: 0.15rem;">
+            {{ partial "functions/get_icon" (dict "name" . "attributes" "style=\"height: 100%; width: 100%;\"") }}
+          </span>
+          {{ end }}
+          <div>
+            <div class="font-semibold text-gray-900 dark:text-white">{{ .name | markdownify | emojify }}</div>
+            {{ with .description }}<div class="text-gray-500 dark:text-gray-400">{{ . | markdownify | emojify }}</div>{{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

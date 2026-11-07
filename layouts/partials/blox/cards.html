@@ -1,0 +1,27 @@
+{{/* Site block: a column of boxed cards, styled like the Awards block. */}}
+{{/* content.items: list of { title, subtitle (optional), text (Markdown) } */}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  {{ with $block.content.title }}
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ . | emojify | $page.RenderString }}</div>
+  {{ end }}
+  {{ with $block.content.text }}<p>{{ . | emojify | $page.RenderString }}</p>{{ end }}
+
+  <div class="w-full flex flex-col gap-6">
+    {{ range $block.content.items }}
+    <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{ .title | emojify | $page.RenderString }}</h5>
+      {{ with .subtitle }}
+      <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">{{ . | emojify | $page.RenderString }}</div>
+      {{ end }}
+      {{ with .text }}
+      <div class="font-normal text-gray-600 dark:text-gray-300 prose dark:prose-invert" style="max-width: 100%;">{{ . | emojify | $page.RenderString | safeHTML }}</div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>

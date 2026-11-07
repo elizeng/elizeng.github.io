@@ -27,7 +27,7 @@ Built with **Hugo + Hugo Blox (Academic CV template, `blox-tailwind`)**, deploye
 | `content/event/<slug>/index.md` | Talks / conference presentations |
 | `content/project/<slug>/index.md` | Research projects (shown on `/research/`, `content/research.md`) |
 | `content/about.md` | About page: experience & education, service, talks, teaching, skills, awards |
-| `content/publications.md` | Full publication list |
+| `content/publications.md` | Full publication list, grouped by year via the custom `publications-by-year` block (`layouts/partials/blox/publications-by-year.html`) |
 | `layouts/partials/blox/markdown.html` | Override: wider text sections (default 60rem; per-block `design: max_width:`) |
 | `assets/media/` | Images processed by Hugo (backgrounds, icons in `assets/media/icons/`) |
 | `static/uploads/resume.pdf` | CV linked from the "Download CV" button |
@@ -45,7 +45,8 @@ Built with **Hugo + Hugo Blox (Academic CV template, `blox-tailwind`)**, deploye
 - `publication:` — journal in Markdown italics, e.g. `"*Ecography*"`. For unpublished work append the status: `(in submission)`, `(in review)`, `(in press)`.
 - `publication_types:` — `["article-journal"]` for published papers, `["manuscript"]` for in-prep/submitted, `["paper-conference"]`, `["chapter"]`, `["book"]`, `["report"]` as appropriate.
 - Fill `doi:` (bare DOI, no `https://doi.org/`) and `url_pdf`/`url_code`/`url_dataset` when known; leave others `''`.
-- When a manuscript gets published, update the existing page (journal, date, DOI, type) — don't create a duplicate.
+- In-preparation and in-submission manuscripts are kept but hidden with `draft: true`. In-press papers are shown: put only the journal in `publication:` and set `status: "In press"` (rendered in italics after the authors).
+- When a manuscript gets published, remove `draft: true` and update the existing page (journal, date, DOI, type) — don't create a duplicate.
 - Bulk alternative: put a `publications.bib` at repo root and push; the import workflow opens a PR.
 
 ### Talks (`content/event/<slug>/index.md`)

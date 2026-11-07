@@ -9,7 +9,7 @@ authors:
 - Vianna JA
 - Burridge CP
 date: "2026-01-01T00:00:00Z"
-doi: ""
+doi: "10.1002/ecog.08322"
 
 publication_types: ["article-journal"]
 
@@ -21,6 +21,7 @@ summary: "Ecography e08322"
 
 tags: []
 featured: True
+external_link: 'https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1002/ecog.08322'
 
 url_pdf: ''
 url_code: ''

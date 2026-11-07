@@ -25,6 +25,8 @@ build:
   writeStats: true
 enableGitInfo: false
 summaryLength: 30
+# Keep author names exactly as written (e.g. "de Groeve J", "van Balen B")
+capitalizeListTitles: false
 pagination:
   pagerSize: 10
 enableEmoji: true

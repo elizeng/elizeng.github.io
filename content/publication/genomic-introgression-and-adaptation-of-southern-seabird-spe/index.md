@@ -35,6 +35,7 @@ summary: "Molecular Biology and Evolution 42: msaf053"
 
 tags: []
 featured: True
+external_link: 'https://academic.oup.com/mbe/article/42/3/msaf053/8088191'
 
 url_pdf: ''
 url_code: ''

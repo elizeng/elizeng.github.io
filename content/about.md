@@ -34,6 +34,7 @@ sections:
         **Peer review:** Bulletin of the British Ornithologists' Club, Ecology and Evolution, Ibis, Journal of Asian Ornithology, Raffles Bulletin of Zoology
     design:
       columns: '1'
+      text_size: normal
   - block: collection
     id: talks
     content:
@@ -45,60 +46,59 @@ sections:
       order: desc
     design:
       view: date-title-summary
-  - block: markdown
+  # Custom block: layouts/partials/blox/cards.html (one box per university)
+  - block: cards
     id: teaching
     content:
       title: Teaching
-      text: |-
-        ### The University of Queensland, Australia
+      items:
+        - title: The University of Queensland
+          subtitle: Australia
+          text: |-
+            **BIOL3024 – Marine Wildlife Conservation** (2025)
+            - Developed and coordinated an experiential field program introducing students to citizen science methodologies through marine bird surveys and bird race activities, with a focus on identifying shorebird and seabird species in coastal environments.
+            - Designed and delivered two lectures on the ecology, conservation biology, and major anthropogenic threats affecting shorebirds and seabirds, highlighting current management strategies and global conservation initiatives.
 
-        **BIOL3024 – Marine Wildlife Conservation** (2025)
-        - Developed and coordinated an experiential field program introducing students to citizen science methodologies through marine bird surveys and bird race activities, with a focus on identifying shorebird and seabird species in coastal environments.
-        - Designed and delivered two lectures on the ecology, conservation biology, and major anthropogenic threats affecting shorebirds and seabirds, highlighting current management strategies and global conservation initiatives.
+            **Student supervision**
+            - Honours project: synthesising conservation evidence for Australian terns in the East Asian-Australasian Flyway
+            - Masters project: social media monitoring of reptile harvesting in Southeast Asia
+        - title: University of Tasmania
+          subtitle: Australia
+          text: |-
+            **KZA161 – Biology of Animals** (2023–2024)
+            - Guided and supported first-year undergraduate students as they identified the distinctive features of different animal groups.
 
-        ### University of Tasmania, Australia
+            **KPZ164 – Cell Biology, Genetics & Evolution** (2022–2023)
+            - Facilitated and assisted first-year undergraduate students conducting molecular and genetic experiments.
 
-        **KZA161 – Biology of Animals** (2023–2024)
-        - Guided and supported first-year undergraduate students as they identified the distinctive features of different animal groups.
+            **KPZ310 – Genetics and Evolution III** (2021)
+            - Guided and supervised a student-driven project examining the evolutionary shifts in breeding locations among seabirds.
 
-        **KPZ164 – Cell Biology, Genetics & Evolution** (2022–2023)
-        - Facilitated and assisted first-year undergraduate students conducting molecular and genetic experiments.
+            **KPZ314 – Fauna of Tasmania** (2022–2024)
+            - Conducted hands-on sessions instructing students in the identification of Tasmanian birds by sight and sound.
+        - title: National University of Singapore
+          subtitle: Singapore
+          text: |-
+            **LSM1103 – Biodiversity** (2015)
+            - Led student groups on field trips to identify flora and fauna.
+            - Conducted practical sessions on identifying key features of flora and fauna groups.
+            - Mentored students on scientific essay writing.
 
-        **KPZ310 – Genetics and Evolution III** (2021)
-        - Guided and supervised a student-driven project examining the evolutionary shifts in breeding locations among seabirds.
+            **LSM3266 – Avian Biology and Evolution** (2015–2019)
+            - Led student groups on field trips to identify birds by sight and sound.
+            - Conducted and demonstrated field-based surveys (observation and mist-netting).
+            - Facilitated and provided logistical support for practical sessions.
 
-        **KPZ314 – Fauna of Tasmania** (2022–2024)
-        - Conducted hands-on sessions instructing students in the identification of Tasmanian birds by sight and sound.
-
-        ### National University of Singapore, Singapore
-
-        **LSM1103 – Biodiversity** (2015)
-        - Led student groups on field trips to identify flora and fauna.
-        - Conducted practical sessions on identifying key features of flora and fauna groups.
-        - Mentored students on scientific essay writing.
-
-        **LSM3266 – Avian Biology and Evolution** (2015–2019)
-        - Led student groups on field trips to identify birds by sight and sound.
-        - Conducted and demonstrated field-based surveys (observation and mist-netting).
-        - Facilitated and provided logistical support for practical sessions.
-
-        ### Student supervision
-
-        - Honours project: synthesising conservation evidence for Australian terns in the East Asian-Australasian Flyway (The University of Queensland)
-        - Masters project: social media monitoring of reptile harvesting in Southeast Asia (The University of Queensland)
-        - Co-supervised undergraduate and graduate research projects in genomics and avian biology (National University of Singapore)
-    design:
-      columns: '1'
+            **Student supervision**
+            - Co-supervised undergraduate and graduate research projects in genomics and avian biology
   - block: resume-skills
     id: skills
     content:
-      title: Skills & Hobbies
+      title: Skills
       username: admin
-    design:
-      show_skill_percentage: false
   - block: resume-awards
     id: awards
     content:
-      title: Awards
+      title: Grants & Awards
       username: admin
 ---

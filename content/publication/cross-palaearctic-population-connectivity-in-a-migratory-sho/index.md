@@ -20,7 +20,9 @@ doi: ""
 
 publication_types: ["article-journal"]
 
-publication: "*Molecular Ecology* (in press)"
+publication: "*Molecular Ecology*"
+# Shown in italics after the authors on the Publications page
+status: "In press"
 publication_short: ""
 
 abstract: ""

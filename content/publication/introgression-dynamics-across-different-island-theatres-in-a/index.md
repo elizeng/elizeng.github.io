@@ -26,6 +26,8 @@ summary: ""
 
 tags: []
 featured: False
+# Hidden until published: remove this line (and update publication/date) to show it.
+draft: true
 
 url_pdf: ''
 url_code: ''
