@@ -59,27 +59,4 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    content:
-      title: Publications
-      text: ""
-      count: 0
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-      order: desc
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Talks & Presentations
-      count: 0
-      filters:
-        folders:
-          - event
-      order: desc
-    design:
-      view: date-title-summary
 ---

@@ -1,12 +1,12 @@
 ---
 title: "Evaluating genetic diversity, population structure, and introgression in insurance populations of one of Australia's most threatened species: the freshwater fish Galaxias pedderensis"
 authors:
-- Kaylene Horner
-- Catherine Jense
-- admin
-- Robert Freeman
-- Bruce Deagle
-- Christopher P Burridge
+- Horner K†
+- Jense C
+- Ng EYX
+- Freeman R
+- Deagle B
+- Burridge CP
 date: "2025-01-01T00:00:00Z"
 doi: ""
 

@@ -1,16 +1,16 @@
 ---
 title: "Fine-scale barriers to connectivity across a fragmented Southeast Asian landscape in six songbird species"
 authors:
-- Emilie Cros
-- admin
-- Ryan RY Oh
-- Qiaoyi Tang
-- Suzan Benedick
-- David P Edwards
-- Silvia Tomassi
-- Martin Irestedt
-- Per GP Ericson
-- Frank E Rheindt
+- Cros E
+- Ng EYX
+- Oh RRY
+- Tang Q
+- Benedick S
+- Edwards DP
+- Tomassi S
+- Irestedt M
+- Ericson PGP
+- Rheindt FE
 date: "2020-01-01T00:00:00Z"
 doi: ""
 

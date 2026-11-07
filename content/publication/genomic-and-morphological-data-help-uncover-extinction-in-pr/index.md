@@ -1,15 +1,15 @@
 ---
 title: "Genomic and morphological data help uncover extinction-in-progress of an unsustainably traded hill myna radiation"
 authors:
-- Ying Jie Denise Ng
-- Tereza Svejcarova
-- Keren R Sadanandan
-- Teuku R Ferasyi
-- Jessica GH Lee
-- Dewi M Prawiradilaga
-- Tomas Ouhel
-- admin
-- Frank E Rheindt
+- Ng YJD†
+- Svejcarova T
+- Sadanandan KR
+- Ferasyi TR
+- Lee JGH
+- Prawiradilaga DM
+- Ouhel T
+- Ng EYX
+- Rheindt FE
 date: "2021-01-01T00:00:00Z"
 doi: ""
 

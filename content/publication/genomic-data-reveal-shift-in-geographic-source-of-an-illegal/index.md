@@ -1,14 +1,14 @@
 ---
 title: "Genomic data reveal shift in geographic source of an illegally traded songbird"
 authors:
-- Meng Yue Wu
-- How Wei Chong
-- Yong Yee Tan
-- Ryan RY Oh
-- Jessica GH Lee
-- Chyi Yin Gwee
-- admin
-- Frank E Rheindt
+- Wu MY
+- Chong HW
+- Tan YY
+- Oh RRY
+- Lee JGH
+- Gwee CY
+- Ng EYX
+- Rheindt FE
 date: "2024-01-01T00:00:00Z"
 doi: ""
 
@@ -21,7 +21,7 @@ abstract: ""
 summary: ""
 
 tags: []
-featured: True
+featured: False
 
 url_pdf: ''
 url_code: ''

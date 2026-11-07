@@ -1,19 +1,19 @@
 ---
 title: "Pleistocene sea level changes drive peripatric diversification in a threatened Asian songbird complex"
 authors:
-- Thomas C Atkinson
-- admin
-- Keren R Sadanandan
-- Jessica GH Lee
-- Denise YJ Ng
-- Kritika M Garg
-- Balaji Chattopadhyay
-- Tereza Svejcarova
-- Tomas Ouhel
-- Teuku R Ferasyi
-- Julia de Groeve
-- Kenneth F Rijsdijk
-- Frank E Rheindt
+- Atkinson TC
+- Ng EYX
+- Sadanandan KR
+- Lee JGH
+- Ng YJD
+- Garg KM
+- Chattopadhyay B
+- Svejcarova T
+- Ouhel T
+- Ferasyi TR
+- de Groeve J
+- Rijsdijk KF
+- Rheindt FE
 date: "2026-01-01T00:00:00Z"
 doi: ""
 

@@ -1,10 +1,10 @@
 ---
 title: "Evidence of genetic connectivity between fragmented pig population in a tropical urban city-state"
 authors:
-- Joanne JM Koh
-- Frank E Rheindt
-- admin
-- Edward L Webb
+- Koh JJ-M†
+- Rheindt FE
+- Ng EYX
+- Webb EL
 date: "2019-01-01T00:00:00Z"
 doi: ""
 

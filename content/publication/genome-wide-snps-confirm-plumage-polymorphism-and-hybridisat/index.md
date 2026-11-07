@@ -1,21 +1,21 @@
 ---
 title: "Genome-wide SNPs confirm plumage polymorphism and hybridisation within a Cyornis flycatcher species complex"
 authors:
-- admin
-- Shengwu Li
-- Dezhi Zhang
-- Kritika M Garg
-- Gang Song
-- Juan Martinez
-- Le Manh Hung
-- Vu Tien Thinh
-- Jerome Fuchs
-- Lu Dong
-- Urban Olsson
-- Yueyun Huang
-- Per Alstrom
-- Frank E Rheindt
-- Fumin Lei
+- Ng EYX
+- Li S†
+- Zhang D
+- Garg KM
+- Song G
+- Martinez J
+- Hung LM
+- Tu VT
+- Fuchs J
+- Dong L
+- Olsson U
+- Huang Y
+- Alström P
+- Rheindt FE
+- Lei F
 date: "2023-01-01T00:00:00Z"
 doi: ""
 

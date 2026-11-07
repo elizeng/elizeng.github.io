@@ -1,11 +1,11 @@
 ---
 title: "A distance sampling survey of the Critically Endangered Straw-headed Bulbul Pycnonotus zeylanicus in Singapore"
 authors:
-- Wan Xian Chiok
-- admin
-- Qiaoyi Tang
-- Jessica GH Lee
-- Frank E Rheindt
+- Chiok WX†
+- Ng EYX
+- Tang Q
+- Lee JGH
+- Rheindt FE
 date: "2021-01-01T00:00:00Z"
 doi: ""
 

@@ -10,8 +10,8 @@ Built with [Hugo](https://gohugo.io) and the [Hugo Blox](https://hugoblox.com) A
 - Homepage sections: `content/_index.md`
 - Publications: `content/publication/<slug>/index.md` (or add a `publications.bib` at the root to import via a pull request)
 - Talks: `content/event/<slug>/index.md`
-- Projects: `content/project/<slug>/index.md`
-- Teaching: `content/teaching/_index.md`
+- Research projects: `content/project/<slug>/index.md`
+- About page (service, teaching, section order): `content/about.md`
 - CV PDF: `static/uploads/resume.pdf`
 - Menu, theme and footer: `config/_default/`
 

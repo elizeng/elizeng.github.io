@@ -1,0 +1,20 @@
+{{/* Hugo Blox: Markdown — site override of blox-tailwind v0.3.1 */}}
+{{/* Change: wider text column than the theme's fixed `max-w-prose` (~65ch). */}}
+{{/* Set `design: max_width: '<css length>'` on a block to change it; default 60rem. */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | emojify | $page.RenderString }}
+{{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
+{{ $max_width := $block.design.max_width | default "60rem" }}
+
+<div class="flex flex-col items-center mx-auto gap-3 justify-center px-6" style="max-width: {{ $max_width | safeCSS }}; width: 100%;">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    {{ $title }}
+  </div>
+
+  {{/* We use DIV rather than P to support `prose` class and multiple paragraphs */}}
+  {{ with $text }}<div class="prose prose-slate lg:prose-xl dark:prose-invert" style="max-width: 100%; width: 100%;">{{ . }}</div>{{ end }}
+</div>

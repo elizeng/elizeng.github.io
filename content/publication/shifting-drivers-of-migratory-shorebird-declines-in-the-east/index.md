@@ -1,10 +1,10 @@
 ---
 title: "Shifting drivers of migratory shorebird declines in the East Asian-Australasian Flyway"
 authors:
-- admin
-- A Rogers
-- RA Fuller
-- Tatsuya Amano
+- Ng EYX
+- Rogers A
+- Fuller RA
+- Amano T
 date: "2026-01-01T00:00:00Z"
 doi: ""
 

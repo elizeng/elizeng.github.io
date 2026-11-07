@@ -1,27 +1,27 @@
 ---
 title: "Genomic introgression and adaptation of southern seabird species facilitate recent polar colonization"
 authors:
-- Jorge Jorquera
-- Lucas Morales
-- admin
-- Daly Noll
-- Luis R Pertierra
-- Patricio Pliscoff
-- Ursula Balza
-- Thierry Boulinier
-- Amandine Gamble
-- Tomas Kasinsky
-- Julie C McInnes
-- Juan C Marin
-- Silvia Olmastroni
-- Pierre Pistorius
-- Richard A Phillips
-- Jacob Gonzalez-Solis
-- Louise M Emmerson
-- Elie Poulin
-- Rauri CK Bowie
-- Christopher P Burridge
-- Jose A Vianna
+- Jorquera J
+- Morales L
+- Ng EYX
+- Noll D
+- Pertierra LR
+- Pliscoff P
+- Balza U
+- Boulinier T
+- Gamble A
+- Kasinsky T
+- McInnes JC
+- Marín JC
+- Olmastroni S
+- Pistorius P
+- Phillips RA
+- González-Solís J
+- Emmerson LM
+- Poulin E
+- Bowie RCK
+- Burridge CP
+- Vianna JA
 date: "2025-01-01T00:00:00Z"
 doi: ""
 
@@ -31,7 +31,7 @@ publication: "*Molecular Biology and Evolution* 42: msaf053"
 publication_short: ""
 
 abstract: ""
-summary: ""
+summary: "Molecular Biology and Evolution 42: msaf053"
 
 tags: []
 featured: True

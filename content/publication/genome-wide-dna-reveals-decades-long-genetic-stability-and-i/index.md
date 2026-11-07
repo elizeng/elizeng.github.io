@@ -1,11 +1,11 @@
 ---
 title: "Genome-wide DNA reveals decades-long genetic stability and intra-familial migratory site fidelity in an Asian population of Common Redshanks"
 authors:
-- Yong Yee Tan
-- Boon Soh
-- admin
-- Delia ZW Li
-- Frank E Rheindt
+- Tan YY
+- Soh B
+- Ng EYX
+- Li DZW
+- Rheindt FE
 date: "2025-01-01T00:00:00Z"
 doi: ""
 

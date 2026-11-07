@@ -1,8 +1,8 @@
 ---
 title: "Avian taxonomy in turmoil: The 7-point rule is poorly reproducible and may overlook substantial cryptic diversity"
 authors:
-- Frank E Rheindt
-- admin
+- Rheindt FE
+- Ng EYX
 date: "2021-01-01T00:00:00Z"
 doi: ""
 

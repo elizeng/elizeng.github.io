@@ -1,10 +1,10 @@
 ---
 title: "Species limits in the Elegant Pitta (Pitta elegans) complex from Wallacea based on bioacoustic and morphometric analysis"
 authors:
-- Amanda Y Yue
-- admin
-- James A Eaton
-- Frank E Rheindt
+- Yue AY†
+- Ng EYX
+- Eaton JA
+- Rheindt FE
 date: "2020-01-01T00:00:00Z"
 doi: ""
 

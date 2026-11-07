@@ -1,14 +1,14 @@
 ---
 title: "Bidoup Nui Ba National Park and the Dalat Plateau, Vietnam: an extraordinary South-East Asian hotspot of endemism"
 authors:
-- Le Manh Hung
-- admin
-- Simon Y Wu
-- Dang Quang Tung
-- Bui Duc Tien
-- Le Van Son
-- Han Yang Sun
-- Frank E Rheindt
+- Hung LM
+- Ng EYX
+- Wu SY
+- Tung DQ
+- Tien BD
+- Son LV
+- Sun HY
+- Rheindt FE
 date: "2020-01-01T00:00:00Z"
 doi: ""
 

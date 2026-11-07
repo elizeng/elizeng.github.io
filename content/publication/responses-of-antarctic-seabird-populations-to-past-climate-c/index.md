@@ -1,13 +1,13 @@
 ---
 title: "Responses of Antarctic seabird populations to past climate change"
 authors:
-- admin
-- Louise M Emmerson
-- Barbara Wienecke
-- Fernanda L Miranda
-- Colin Southwell
-- Jose A Vianna
-- Christopher P Burridge
+- Ng EYX
+- Emmerson LM
+- Wienecke B
+- Miranda FL
+- Southwell C
+- Vianna JA
+- Burridge CP
 date: "2026-01-01T00:00:00Z"
 doi: ""
 
@@ -17,10 +17,10 @@ publication: "*Ecography* e08322"
 publication_short: ""
 
 abstract: ""
-summary: ""
+summary: "Ecography e08322"
 
 tags: []
-featured: False
+featured: True
 
 url_pdf: ''
 url_code: ''

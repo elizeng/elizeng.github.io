@@ -1,10 +1,10 @@
 ---
 title: "A new and cryptic species of hawk-cuckoo (genus Hierococcyx) from Borneo"
 authors:
-- Frank E Rheindt
-- GGK Teo
-- James A Eaton
-- admin
+- Rheindt FE
+- Teo GGK†
+- Eaton JA
+- Ng EYX
 date: "2025-01-01T00:00:00Z"
 doi: ""
 

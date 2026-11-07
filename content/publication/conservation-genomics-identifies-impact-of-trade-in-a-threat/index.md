@@ -1,13 +1,13 @@
 ---
 title: "Conservation genomics identifies impact of trade in a threatened songbird"
 authors:
-- admin
-- Kritika M Garg
-- Gabriel W Low
-- Balaji Chattopadhyay
-- Ryan RY Oh
-- Jessica GH Lee
-- Frank E Rheindt
+- Ng EYX
+- Garg KM
+- Low GW
+- Chattopadhyay B
+- Oh RRY
+- Lee JGH
+- Rheindt FE
 date: "2017-01-01T00:00:00Z"
 doi: ""
 
@@ -17,10 +17,10 @@ publication: "*Biological Conservation* 214: 101-108"
 publication_short: ""
 
 abstract: ""
-summary: ""
+summary: "Biological Conservation 214: 101-108"
 
 tags: []
-featured: False
+featured: True
 
 url_pdf: ''
 url_code: ''

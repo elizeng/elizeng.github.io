@@ -1,17 +1,17 @@
 ---
 title: "Genomes from historic DNA unveil massive hidden extinction and terminal endangerment in a tropical Asian songbird radiation"
 authors:
-- Meng Yue Wu
-- Chyi Jun Lau
-- admin
-- Pratibha Baveja
-- Chyi Yin Gwee
-- Keren Sadanandan
-- Teuku R Ferasyi
+- Wu MY
+- Lau CJ
+- Ng EYX
+- Baveja P
+- Gwee CY
+- Sadanandan K
+- Ferasyi TR
 - Haminuddin
-- Ridha Ramadhan
-- Jessica K Menner
-- Frank E Rheindt
+- Ramadhan R
+- Menner JK
+- Rheindt FE
 date: "2022-01-01T00:00:00Z"
 doi: ""
 

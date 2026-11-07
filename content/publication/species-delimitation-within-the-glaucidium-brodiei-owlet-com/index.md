@@ -1,10 +1,10 @@
 ---
 title: "Species delimitation within the Glaucidium brodiei owlet complex using bioacoustics tools"
 authors:
-- Chyi Yin Gwee
-- James A Eaton
-- admin
-- Frank E Rheindt
+- Gwee CY
+- Eaton JA
+- Ng EYX
+- Rheindt FE
 date: "2019-01-01T00:00:00Z"
 doi: ""
 

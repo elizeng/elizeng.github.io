@@ -1,16 +1,16 @@
 ---
 title: "The conservation value of admixed phenotypes in a critically endangered species complex"
 authors:
-- Keren R Sadanandan
-- Gabriel W Low
-- Sivasothi Sridharan
-- Chyi Yin Gwee
-- admin
-- Pramana Yuda
-- Dewi M Prawiradilaga
-- Jessica GH Lee
-- Angelo Tritto
-- Frank E Rheindt
+- Sadanandan KR
+- Low GW
+- Sridharan S
+- Gwee CY
+- Ng EYX
+- Yuda P
+- Prawiradilaga DM
+- Lee JGH
+- Tritto A
+- Rheindt FE
 date: "2020-01-01T00:00:00Z"
 doi: ""
 
@@ -23,7 +23,7 @@ abstract: ""
 summary: ""
 
 tags: []
-featured: True
+featured: False
 
 url_pdf: ''
 url_code: ''

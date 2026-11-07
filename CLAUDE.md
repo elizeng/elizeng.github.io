@@ -22,12 +22,13 @@ Built with **Hugo + Hugo Blox (Academic CV template, `blox-tailwind`)**, deploye
 | `config/_default/params.yaml` | Theme colour/mode, SEO, navbar, footer/copyright |
 | `config/_default/menus.yaml` | Top navigation links |
 | `content/_index.md` | Homepage — a list of Hugo Blox `sections` (biography, research blurb, publications…) |
-| `content/authors/admin/_index.md` | Profile: role, affiliations, social links, interests, education, experience, skills, awards. Feeds the bio and `/experience/` page |
+| `content/authors/admin/_index.md` | Profile: role, affiliations, social links, interests, education, experience, skills, awards. Feeds the homepage bio and the `/about/` page |
 | `content/publication/<slug>/index.md` | One folder per paper |
 | `content/event/<slug>/index.md` | Talks / conference presentations |
-| `content/project/<slug>/index.md` | Research projects (shown on `/projects/`) |
-| `content/teaching/_index.md` | Teaching page (single Markdown block, grouped by institution) |
-| `content/experience.md` | Experience page; includes a "Service & Memberships" Markdown block |
+| `content/project/<slug>/index.md` | Research projects (shown on `/research/`, `content/research.md`) |
+| `content/about.md` | About page: experience & education, service, talks, teaching, skills, awards |
+| `content/publications.md` | Full publication list |
+| `layouts/partials/blox/markdown.html` | Override: wider text sections (default 60rem; per-block `design: max_width:`) |
 | `assets/media/` | Images processed by Hugo (backgrounds, icons in `assets/media/icons/`) |
 | `static/uploads/resume.pdf` | CV linked from the "Download CV" button |
 | `.github/workflows/publish.yaml` | Builds and deploys on push to `main` |
@@ -37,12 +38,13 @@ Built with **Hugo + Hugo Blox (Academic CV template, `blox-tailwind`)**, deploye
 
 ### Publications (`content/publication/<slug>/index.md`)
 - Folder slug: lowercase, hyphenated title, truncated to ~60 characters (matches existing folders).
-- `authors:` — use `admin` for Elize; other authors as full names in published order.
+- `authors:` — copy exactly as written in the CV, abbreviated "Surname Initials" style (e.g. `Rheindt FE`), in published order, keeping `†` on co-supervised students. Elize is always `Ng EYX` (not `admin`); the `content/authors/ng-eyx/` profile makes only her name bold.
+- `featured: true` papers appear as cards on the homepage; set `summary:` to the plain-text journal line (e.g. `"Ecography e08322"`) and add a `featured.jpg`/`featured.png` (16:9 works best) in the paper's folder. Cards show no date (override in `layouts/partials/views/article-grid.html`).
+- The full list lives on `/publications/` (`content/publications.md`), not the homepage.
 - `date:` — **year only**. Always write `"YYYY-01-01T00:00:00Z"` (Hugo needs a full date, but only the year is meaningful). Never use the real month/day, even if known.
 - `publication:` — journal in Markdown italics, e.g. `"*Ecography*"`. For unpublished work append the status: `(in submission)`, `(in review)`, `(in press)`.
 - `publication_types:` — `["article-journal"]` for published papers, `["manuscript"]` for in-prep/submitted, `["paper-conference"]`, `["chapter"]`, `["book"]`, `["report"]` as appropriate.
 - Fill `doi:` (bare DOI, no `https://doi.org/`) and `url_pdf`/`url_code`/`url_dataset` when known; leave others `''`.
-- `featured: true` only for papers the user wants in the homepage "Featured Publications" grid.
 - When a manuscript gets published, update the existing page (journal, date, DOI, type) — don't create a duplicate.
 - Bulk alternative: put a `publications.bib` at repo root and push; the import workflow opens a PR.
 
@@ -63,7 +65,7 @@ Built with **Hugo + Hugo Blox (Academic CV template, `blox-tailwind`)**, deploye
 - Plain, concise, accessible to a non-specialist; species names in italics where used in prose.
 
 ## Template leftovers
-Removed in the November 2026 rebuild (demo posts, demo courses, demo talk, homepage advert block, News menu link, GitHub star-button script, template README). Don't reintroduce Hugo Blox demo content. Homepage menu anchors must match a section `id` in `content/_index.md` (`papers`, `talks`).
+Removed in the November 2026 rebuild (demo posts, demo courses, demo talk, homepage advert block, News menu link, GitHub star-button script, template README). Don't reintroduce Hugo Blox demo content. The homepage holds only the biography, My Research and Featured Publications. The menu is About (`/about/`), Research (`/research/`), Publications (`/publications/`); everything else (experience, service, talks, teaching, skills, awards) belongs on the About page. Any `/#anchor` menu link must match a section `id` in `content/_index.md`.
 
 ## Building & checking
 

@@ -1,12 +1,12 @@
 ---
 title: "Integrative taxonomy reveals cryptic robin lineage in the Greater Sunda Islands"
 authors:
-- admin
-- Amanda Y Yue
-- James A Eaton
-- Chyi Yin Gwee
-- Bas van Balen
-- Frank E Rheindt
+- Ng EYX
+- Yue AY
+- Eaton JA
+- Gwee CY
+- van Balen B
+- Rheindt FE
 date: "2020-01-01T00:00:00Z"
 doi: ""
 

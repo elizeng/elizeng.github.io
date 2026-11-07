@@ -1,12 +1,12 @@
 ---
 title: "A strikingly new species of leaf warbler from the Lesser Sundas as uncovered through morphology and genomics"
 authors:
-- Nathaniel SR Ng
-- Dewi M Prawiradilaga
-- admin
-- Colin Trainor
-- Philippe Verbelen
-- Frank E Rheindt
+- Ng NSR
+- Prawiradilaga DM
+- Ng EYX
+- Trainor C
+- Verbelen P
+- Rheindt FE
 date: "2018-01-01T00:00:00Z"
 doi: ""
 

@@ -1,10 +1,10 @@
 ---
 title: "Ecological and evolutionary factors shape the extra-tropical latitudinal species diversity peak in procellariiform seabirds"
 authors:
-- admin
-- Simon Wotherspoon
-- Louise M Emmerson
-- Christopher P Burridge
+- Ng EYX
+- Wotherspoon S
+- Emmerson LM
+- Burridge CP
 date: "2025-01-01T00:00:00Z"
 doi: ""
 

@@ -1,12 +1,12 @@
 ---
 title: "Small-mammal genomics highlights viaducts as potential dispersal conduits for fragmented populations"
 authors:
-- Tzi Ching Yeen Hui
-- Qiaoyi Tang
-- admin
+- Hui TCY†
+- Tang Q
+- Ng EYX
 - JL Chong
-- Eleanor M Slade
-- Frank E Rheindt
+- Slade EM
+- Rheindt FE
 date: "2024-01-01T00:00:00Z"
 doi: ""
 

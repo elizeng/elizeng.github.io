@@ -1,20 +1,20 @@
 ---
 title: "Cross-Palaearctic population connectivity in a migratory shorebird, the Common Redshank, defies high site fidelity"
 authors:
-- Yong Yee Tan
-- Kirsten Moreland
-- admin
-- Delia ZW Li
-- Pavel S Tomkovich
-- Africa D Rocha
-- Jose A Alves
-- Veli-Matti Pakanen
-- Hong Zhen Tan
-- Boon Soh
-- Kenneth KS Leung
-- David S Melville
-- Philip D Round
-- Frank E Rheindt
+- Tan YY
+- Moreland K†
+- Ng EYX
+- Li DZW
+- Tomkovich PS
+- Rocha AD
+- Alves JA
+- Pakanen V-M
+- Tan HZ
+- Soh B
+- Leung KKS
+- Melville DS
+- Round PD
+- Rheindt FE
 date: "2026-01-01T00:00:00Z"
 doi: ""
 

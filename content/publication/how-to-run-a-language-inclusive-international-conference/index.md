@@ -1,19 +1,19 @@
 ---
 title: "How to run a language-inclusive international conference"
 authors:
-- Tatsuya Amano
-- Violeta Berdejo-Espinola
-- Estibaliz Cseko-Nolasco
-- Kellyane Indraswari
-- Rocio M Dominguez-Martinez
-- Aiying Liu
-- admin
-- Vanessa Adams
-- Micha Johnson
-- Katharina Munger
-- Nathan Spillman
-- Hugh Possingham
-- Micha V Jackson
+- Amano T
+- Berdejo-Espinola V
+- Cseko-Nolasco E
+- Indraswari K
+- Dominguez-Martinez RM
+- Liu A
+- Ng EYX
+- Adams V
+- Johnson M
+- Munger K
+- Spillman N
+- Possingham H
+- Jackson MV
 date: "2026-01-01T00:00:00Z"
 doi: ""
 

@@ -1,18 +1,18 @@
 ---
 title: "Introgression dynamics across different island theatres in a Southern Ocean seabird"
 authors:
-- admin
-- Qiaoyi Tang
-- Richard A Phillips
-- Jose A Vianna
-- Louise M Emmerson
-- Barbara Wienecke
-- Pierre Pistorius
-- Julie C McInnes
-- L Kruger
-- Fernanda L Miranda
-- Frank E Rheindt
-- Christopher P Burridge
+- Ng EYX
+- Tang Q
+- Phillips RA
+- Vianna JA
+- Emmerson LM
+- Wienecke B
+- Pistorius P
+- McInnes JC
+- Kruger L
+- Miranda FL
+- Rheindt FE
+- Burridge CP
 date: "2026-01-01T00:00:00Z"
 doi: ""
 

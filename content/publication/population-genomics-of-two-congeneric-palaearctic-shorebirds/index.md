@@ -1,13 +1,13 @@
 ---
 title: "Population genomics of two congeneric Palaearctic shorebirds reveal differential impacts of Quaternary climate oscillations across habitat types"
 authors:
-- Hong Zhen Tan
-- admin
-- Qiaoyi Tang
-- Gary A Allport
-- Justin JFJ Jansen
-- Pavel S Tomkovich
-- Frank E Rheindt
+- Tan HZ†
+- Ng EYX
+- Tang Q
+- Allport GA
+- Jansen JJFJ
+- Tomkovich PS
+- Rheindt FE
 date: "2019-01-01T00:00:00Z"
 doi: ""
 

@@ -1,12 +1,12 @@
 ---
 title: "Beyond the pandemic: gems from Singapore in 2020-2021"
 authors:
-- Yong Chee Keita Sin
+- YC Sin
 - R Narayanswamy
-- Denise Ng
-- Sutari Chia
-- admin
-- Movin Kennewell
+- D Ng
+- S Chia
+- Ng EYX
+- M Kennewell
 date: "2022-01-01T00:00:00Z"
 doi: ""
 

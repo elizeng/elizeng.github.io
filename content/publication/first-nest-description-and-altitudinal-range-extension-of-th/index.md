@@ -1,10 +1,10 @@
 ---
 title: "First nest description and altitudinal range extension of the south Indochinese endemic Black-headed Parrotbill Psittiparus margaritae"
 authors:
-- admin
-- Le Manh Hung
-- Simon Wu
-- Frank E Rheindt
+- Ng EYX
+- Hung LM
+- Wu S
+- Rheindt FE
 date: "2019-01-01T00:00:00Z"
 doi: ""
 

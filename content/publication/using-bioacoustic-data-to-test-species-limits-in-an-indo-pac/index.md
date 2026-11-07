@@ -1,11 +1,11 @@
 ---
 title: "Using bioacoustic data to test species limits in an Indo-Pacific island radiation of Macropygia cuckoo doves"
 authors:
-- admin
-- James A Eaton
-- Philippe Verbelen
-- Rob O Hutchinson
-- Frank E Rheindt
+- Ng EYX
+- Eaton JA
+- Verbelen P
+- Hutchinson RO
+- Rheindt FE
 date: "2016-01-01T00:00:00Z"
 doi: ""
 
