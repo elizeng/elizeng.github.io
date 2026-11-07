@@ -47,9 +47,9 @@ profiles:
     url: https://orcid.org/0000-0003-1014-182X
 
 interests:
-  - Avian Biology
   - Conservation
   - Evolution
+  - Avian Biology
   - Genomics
 
 education:
@@ -74,9 +74,12 @@ work:
     date_start: 2024-11-01
     date_end: ''
     summary: |2-
-      - Led and managed a team of collaborators and students to conduct a systematic literature review of conservation management actions undertaken for migratory shorebirds in the East Asian-Australasian Flyway
-      - Developed a network of practitioners consulted for input on the development of the management handbook
-      - Supervised research projects, including an Honours thesis on conservation management actions for Australian Tern along the East Asian-Australasian Flyway, and a Masters thesis on the use of social media in monitoring harvesting of Southeast Asian reptiles
+      - Lead a team of six international collaborators from four language backgrounds to synthesise global conservation evidence for East Asian-Australasian Flyway migratory shorebirds
+      - Developed an LLM-assisted workflow to extract and validate data from 520 studies, cutting screening and validation time by at least 20% for evidence synthesis
+      - Built and coordinate a network of 70+ practitioners across 18 countries in the East Asian-Australasian Flyway, consulting them to develop a practical handbook for managing shorebird conservation
+      - Analysed migratory shorebird population trends in the East Asian-Australasian Flyway and Moreton Bay Ramsar Site
+      - Supervised an Honours project (synthesising conservation evidence for Australian terns in the EAAF) and a Masters project (social media monitoring of reptile harvesting in Southeast Asia)
+      - Developed and coordinated a field and lecture program in coastal shorebird and seabird surveys for BIOL3024 students
   - position: Research Assistant
     company_name: National University of Singapore, Singapore
     company_url: ''
@@ -84,12 +87,13 @@ work:
     date_start: 2016-10-01
     date_end: 2020-09-30
     summary: |2-
-      - Led and managed three externally funded research projects: "Landscape connectivity of selected urban and forest birds" (SGD 360,000, Singapore National Parks Board), "Ecological and genomic conservation assessment of songbird species threatened by the trade" (SGD 150,000, Wildlife Reserves Singapore), and "Genomic assessment of migratory shorebird species wintering in Singapore" (SGD 33,700, Singapore National Parks Board)
-      - Main liaison with international collaborators and government agencies for samples, permits, and grants to conduct research activities
-      - Mentored undergraduate and graduate students in genetics and field-based projects
-      - Designed and supervised honours and undergraduate research projects
-      - Organised and led international field expeditions to collect samples and train students
-      - Managed the Avian Evolution Lab's logistics, finances, sample collection, and administrative procedures
+      - Managed the Avian Evolution Lab's logistics, research permits, finances, procurement, sample collection and administrative procedures, keeping a lab of up to 15 members running smoothly
+      - Led a team of five students and three junior research assistants to deliver and manage three concurrently funded projects (combined value ~SGD 540,000): "Landscape connectivity of urban and forest birds in Singapore" (National Parks Board, SGD 360,000), "Genomic assessment of migratory shorebirds wintering in Singapore" (National Parks Board, SGD 33,700), and "Ecological and genomic conservation assessment of songbirds threatened by trade" (Wildlife Reserves Singapore, SGD 150,000)
+      - Banded and sampled ~350 birds from 14 avian orders, including shorebirds and seabirds
+      - Main liaison with >10 international collaborators and 2 government agencies for samples, permits and grants for research in Singapore
+      - Organised and coordinated international field expeditions in Southeast Asia to survey and collect avian samples
+      - Co-supervised and co-designed undergraduate and graduate student research projects in genomics and avian biology
+      - Prepared Next-Generation Sequencing libraries for modern and ancient samples (ddRADSeq, whole genome libraries, and targeted enrichment)
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -135,7 +139,7 @@ skills:
   - name: Licenses
     items:
       - name: Australian Bird and Bat Banding Scheme
-        description: 'C-Class license; currently banding with Queensland Bird Research and Banding Group'
+        description: 'R-Class licence; currently banding with Queensland Bird Research and Banding Group'
         percent: 100
         icon: identification
       - name: PADI Advanced Diving License
@@ -165,6 +169,13 @@ awards:
     icon: ''
     summary: |
       Awarded AUD 750 to present at the Australasian Ornithological Conference 2023.
+  - title: Sidney James Prize for Best Student Poster
+    url: ''
+    date: '2023-07-01'
+    awarder: International Congress of Genetics 2023
+    icon: ''
+    summary: |
+      Awarded for the poster "Paleohistorical climate influences on Antarctic seabirds".
   - title: Cumberland Bird Observers Club Memorial Fund Grant
     url: ''
     date: '2022-10-01'
@@ -185,7 +196,7 @@ awards:
     awarder: University of Tasmania
     icon: ''
     summary: |
-      Awarded full scholarship and stipend to undertake doctoral research at the University of Tasmania (Oct 2020 - Dec 2024).
+      Awarded full scholarship and stipend to undertake doctoral research at the University of Tasmania (Oct 2020 - Nov 2024).
   - title: Santa Cruz Ground Dove Conservation Genomics Funding
     url: ''
     date: '2019-06-01'
@@ -204,4 +215,4 @@ awards:
 
 ## About Me
 
-Elize Ng is a Postdoctoral Research Fellow at the University of Queensland, where she leads a systematic review of conservation management actions for migratory shorebirds across the East Asian-Australasian Flyway. She holds a PhD in Biological Sciences from the University of Tasmania, where her research examined the genomic and climatic drivers of seabird diversity, and a B.Sc. (Hons) in Life Sciences from the National University of Singapore. Her broader research interests span avian biology, conservation, evolution, and genomics, with field experience spanning Singapore, Australia, Indonesia, Malaysia, the Philippines, Vietnam, and Costa Rica. She is an active member of the ornithological community, serving on AviList's Tropical Asian Regional Advisory Group, the IUCN Asian Songbird Trade Specialist Group, and chairing the Captive Breeding and Genetics branch of the Straw-headed Bulbul Working Group.
+Elize Ng is a conservation biologist whose work connects three stages of conservation: identifying what to conserve (taxonomy and evolution), understanding what species need to persist (ecology and threats), and determining how best to protect them (conservation evidence and application). She is a Postdoctoral Research Fellow at the University of Queensland, where she leads a global systematic review of conservation evidence for migratory shorebirds in the East Asian–Australasian Flyway. She holds a PhD from the University of Tasmania, where she investigated the genomic and climatic drivers of seabird diversity, and a BSc (Hons) from the National University of Singapore. She has broad field experience across Southeast Asia, Australia and Costa Rica and serves on AviList’s Tropical Asian Regional Advisory Group and is a Subject Editor for the *Journal of Asian Ornithology*.

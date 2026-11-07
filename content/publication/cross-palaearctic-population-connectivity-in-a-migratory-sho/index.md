@@ -18,9 +18,9 @@ authors:
 date: "2026-01-01T00:00:00Z"
 doi: ""
 
-publication_types: ["manuscript"]
+publication_types: ["article-journal"]
 
-publication: "*Molecular Ecology* (in submission)"
+publication: "*Molecular Ecology* (in press)"
 publication_short: ""
 
 abstract: ""

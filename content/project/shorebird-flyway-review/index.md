@@ -8,6 +8,6 @@ tags:
   - Systematic Review
 ---
 
-Leading a systematic literature review of conservation management actions undertaken for migratory shorebirds across the East Asian-Australasian Flyway, in support of a practitioner-facing management handbook. The project involves coordinating a team of collaborators and students, and building a network of practitioners for expert consultation.
+Leading a team of six international collaborators from four language backgrounds to synthesise global conservation evidence for migratory shorebirds in the East Asian-Australasian Flyway, in support of a practical management handbook. The project uses an LLM-assisted workflow to extract and validate data from 520 studies, and draws on a network of 70+ practitioners across 18 countries for expert consultation.
 
 <!--more-->

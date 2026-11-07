@@ -1,5 +1,5 @@
 ---
-title: "Decline of Antarctic seabirds in a warming climate"
+title: "Responses of Antarctic seabird populations to past climate change"
 authors:
 - admin
 - Louise M Emmerson
@@ -11,9 +11,9 @@ authors:
 date: "2026-01-01T00:00:00Z"
 doi: ""
 
-publication_types: ["manuscript"]
+publication_types: ["article-journal"]
 
-publication: "*Ecography* (in submission)"
+publication: "*Ecography* e08322"
 publication_short: ""
 
 abstract: ""

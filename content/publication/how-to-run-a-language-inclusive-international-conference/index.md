@@ -17,9 +17,9 @@ authors:
 date: "2026-01-01T00:00:00Z"
 doi: ""
 
-publication_types: ["manuscript"]
+publication_types: ["article-journal"]
 
-publication: "*Nature Reviews Biodiversity* (in submission)"
+publication: "*Nature Reviews Biodiversity* 2: 481-483"
 publication_short: ""
 
 abstract: ""
