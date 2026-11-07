@@ -22,7 +22,13 @@
     <div style="display: flex; flex-direction: column; gap: 1rem;">
       {{ range .Pages }}
       <div class="pub-list-item view-citation">
-        <span class="article-metadata li-cite-author">{{ partial "page_metadata_authors" . }}</span>.
+        {{/* Authors read straight from front matter (papers have no pages, so taxonomy terms are empty). Only "Ng EYX" is bold. */}}
+        <span class="article-metadata li-cite-author">
+          {{- range $i, $a := .Params.authors -}}
+            {{- if $i }}, {{ end -}}
+            {{- if eq $a "Ng EYX" }}<strong>{{ $a }}</strong>{{ else }}{{ $a }}{{ end -}}
+          {{- end -}}
+        </span>.
         {{ with .Params.status }}<em>{{ . }}</em>.{{ end }}
         {{/* Papers have no page of their own: link to the journal (external_link, else DOI), otherwise plain text. */}}
         {{ $link := .Params.external_link | default (cond (ne (.Params.doi | default "") "") (printf "https://doi.org/%s" .Params.doi) "") }}
@@ -33,5 +39,8 @@
       {{ end }}
     </div>
   </div>
+  {{ end }}
+  {{ with $block.content.footnote }}
+  <p class="border-t border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400" style="padding-top: 1.25rem;">{{ . | emojify | $page.RenderString }}</p>
   {{ end }}
 </div>

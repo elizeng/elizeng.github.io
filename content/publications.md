@@ -11,5 +11,6 @@ sections:
   - block: publications-by-year
     content:
       title: Publications
-      text: "† Student co-author co-supervised by Ng EYX"
+      # Shown below the list
+      footnote: "† Student co-author co-supervised by Ng EYX"
 ---
